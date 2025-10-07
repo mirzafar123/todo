@@ -1,5 +1,5 @@
-import pg from "pg";
-import dotenv from "dotenv";
+const pg = require("pg"); // ✅ CommonJS
+const dotenv = require("dotenv"); // ✅ CommonJS
 
 dotenv.config();
 const { Pool } = pg;
